@@ -4,10 +4,11 @@ npm i
 ng serve
 
 
+open the ApplicationApp project using VisualStudioCode
 
-After running the commands:
+and run using a terminal the project using the npm i and ng serve commands
 
-open the ApplicationApp project using VisualStudioCode and run using a terminal
+Open the browser in the following path http://localhost:4200
 
 a screen should open that looks like this:
 
