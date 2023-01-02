@@ -9,9 +9,6 @@ import { environment } from 'src/environments/environment';
 })
 export class ApplicationService {
 
-  private application$ = new BehaviorSubject<any>({});
-  selectedapplication$ = this.application$.asObservable();
-
   private applicationList:Application[] |undefined;
 
   constructor(private http: HttpClient) { }
@@ -30,7 +27,4 @@ export class ApplicationService {
   getApplicationDetails(id:number){
     return this.applicationList?.filter(x=>x.id==id)[0];
   }
-    getSelectedApplication = (): Application => {
-      return this.application$.value;
-    }
 }
