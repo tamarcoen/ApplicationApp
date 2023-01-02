@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    margin: 0px;
+}
+
+.mat-table{
+    width: 100%;
+    .mat-sort-header-container{
+        justify-content: center;
+    }
+    tr.mat-row{
+        text-align: center;
+    }
+}
+.content {
+ padding: 0 16px;
+ display: block;
+ margin: 35px auto 32px ;
+ max-width: 80%;
+}

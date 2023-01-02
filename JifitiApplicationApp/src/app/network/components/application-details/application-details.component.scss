@@ -1,0 +1,51 @@
+table {
+    border: 1px solid #1976d2;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  mat-spinner{
+   transform: translate(444%,80%);
+  }
+  .mat-spinner-color::ng-deep circle{
+    stroke: #1976d2 !important;
+    }
+  .mat-mdc-cell, .mat-mdc-table .mat-mdc-header-cell{
+    padding-left: 9%;
+  }
+  .mat-mdc-table{
+    overflow: hidden;
+  }
+  .mat-mdc-paginator{
+    display: initial;
+  }
+  :host ::ng-deep div.mat-mdc-paginator-container{
+    justify-content: center;
+    margin-top: 30px;
+   }
+   :host ::ng-deep div.mat-sort-header-container {
+    color: #1976d2;
+   }
+   .section-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+  } 
+  .back{
+    display: flex;
+    height: 35px;
+    margin-right: 4px;
+  }
+  button:hover{
+    cursor: pointer;
+  }
+  p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 30%;
+    font-weight: 300;
+    margin: 10px;
+  } 
+
+  
