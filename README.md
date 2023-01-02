@@ -1,1 +1,2 @@
-# ApplicationApp
+npm i
+ng serve
